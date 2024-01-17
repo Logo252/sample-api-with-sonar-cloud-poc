@@ -6,8 +6,8 @@ class SampleRequest(BaseModel):
 
     @validator("parameter1")
     def validate_format(cls, value):
-        supported_formats = ["png", "svg", "eps", "pdf", "txt"]
+        supported_values = ["test1", "test2", "test3", "test4"]
 
-        if value not in supported_formats:
-            raise ValueError(f"Invalid 'parameter1' parameter. Supported formats: {', '.join(supported_formats)}")
+        if value not in supported_values:
+            raise ValueError(f"Invalid 'parameter1' parameter. Supported values: {', '.join(supported_values)}")
         return value
