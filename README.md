@@ -9,7 +9,7 @@
 - Run command: `pipreqs --force` (use --force to overwrite file)
 
 ### Install dependencies
-- Run command: `pip install -r requirements.txt`
+- Run command: `pip install -r requirements.txt -r requirements-dev.txt`
 
 ## Run project
 - Run command: `python main.py`
