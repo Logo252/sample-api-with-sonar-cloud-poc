@@ -1,0 +1,7 @@
+# Venv files
+venv/
+
+__pycache__/
+
+# logs
+logs
